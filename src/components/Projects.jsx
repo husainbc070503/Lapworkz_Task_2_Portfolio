@@ -11,6 +11,8 @@ import TODO from "../assets/projects/todo.png";
 import Notes from "../assets/projects/notes.png";
 import ECommerce from "../assets/projects/ecomm.png";
 import Food from "../assets/projects/food.png";
+import ET from "../assets/projects/expense_tracker.png";
+import ELP from "../assets/projects/elp.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -31,15 +33,33 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: "Expense Tracker",
+      image: ET,
+      description:
+        "Expense Tracker MERN: Efficiently manage finances with MongoDB, Express.js, React, and Node.js. Input, categorize, and analyze expenses for seamless financial tracking.",
+      live: "https://expense-tracker-mern-stack-web-app.netlify.app/",
+      github: "https://github.com/husainbc070503/Expense_Tracker_Frontend",
+    },
+    {
+      id: 2,
+      title: "E-Learning Platform",
+      image: ELP,
+      description:
+        "E-Learning Platform: Online educational tool facilitating remote learning, offering diverse courses, interactive content, and flexibility for users to acquire knowledge anytime, anywhere.",
+      live: "https://e-learning-platform-clone.netlify.app/",
+      github: "https://github.com/husainbc070503/E-Learning-Platform_Frontend",
+    },
+    {
+      id: 3,
       title: "Tutor Application",
       image: TutorApp,
       description:
-        "A tutor application connects students with tutors for personalized learning. It features profiles, scheduling, and communication tools, streamlining the process of finding and booking tutoring sessions.",
+        "The Tutor Application web app facilitates seamless matching between tutors and students, streamlining the process of finding and connecting with qualified tutors for personalized learning experiences.",
       live: "https://tutor-application.netlify.app/",
       github: "https://github.com/husainbc070503/Tutor_App_Frontend",
     },
     {
-      id: 2,
+      id: 4,
       title: "Project Management App",
       image: PMA,
       description:
@@ -49,7 +69,7 @@ const Projects = () => {
         "https://github.com/husainbc070503/Project_Management_App_Frontend",
     },
     {
-      id: 3,
+      id: 5,
       title: "Electro World, E-Commerce App",
       image: ECommerce,
       description:
@@ -58,7 +78,7 @@ const Projects = () => {
       github: "https://github.com/husainbc070503/E-Commerce-App-Frontend",
     },
     {
-      id: 4,
+      id: 6,
       title: "Instagram Clone",
       image: InstaClone,
       description:
@@ -67,7 +87,7 @@ const Projects = () => {
       github: "https://github.com/husainbc070503/MERN_Instagram_Clone",
     },
     {
-      id: 5,
+      id: 7,
       title: "Blog Book",
       image: BlogBook,
       description:
@@ -76,7 +96,7 @@ const Projects = () => {
       github: "https://github.com/husainbc070503/Blog-App-Frontend",
     },
     {
-      id: 6,
+      id: 8,
       title: "Weather Application",
       image: Weather,
       description:
@@ -85,7 +105,7 @@ const Projects = () => {
       github: "https://github.com/husainbc070503/React_Weather_App",
     },
     {
-      id: 7,
+      id: 9,
       title: "Airline Booking Application",
       image: Airline,
       description:
@@ -94,7 +114,7 @@ const Projects = () => {
       github: "https://github.com/husainbc070503/Travel-Booking-App-Backend",
     },
     {
-      id: 8,
+      id: 10,
       title: "To-Do Application",
       image: TODO,
       description:
@@ -103,7 +123,7 @@ const Projects = () => {
       github: "https://github.com/husainbc070503/TODO-APP-USING-REACT",
     },
     {
-      id: 9,
+      id: 11,
       title: "Notes Application",
       image: Notes,
       description:
@@ -112,7 +132,7 @@ const Projects = () => {
       github: "https://github.com/husainbc070503/Notes-App",
     },
     {
-      id: 10,
+      id: 12,
       title: "Go Food - Food Order Application",
       image: Food,
       description:
