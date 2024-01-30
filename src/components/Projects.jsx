@@ -13,6 +13,8 @@ import ECommerce from "../assets/projects/ecomm.png";
 import Food from "../assets/projects/food.png";
 import ET from "../assets/projects/expense_tracker.png";
 import ELP from "../assets/projects/elp.png";
+import SOC from "../assets/projects/SOC.png";
+import TC from "../assets/projects/TC.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -33,6 +35,24 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: "Twitter Clone",
+      image: TC,
+      description:
+        "Developed a Twitter clone using the MERN stack, implementing MongoDB for the database, Express.js for server-side logic, React.js for the frontend, and Node.js for server runtime. Implemented features such as user authentication, real-time tweet updates, and a responsive user interface.",
+      live: "https://husain-twitter-clone.netlify.app/",
+      github: "https://github.com/husainbc070503/Twitter_Clone_Frontend",
+    },
+    {
+      id: 2,
+      title: "Stack Overflow Clone",
+      image: SOC,
+      description:
+        "Built a Stack Overflow clone with MERN stack, using MongoDB for storage, Express.js for backend, React.js for frontend, and Node.js for server operations. Features include user authentication, Q&A functionality, and an intuitive interface for streamlined knowledge sharing in the developer community.",
+      live: "https://nullclass-stack-overflow-clone.netlify.app/",
+      github: "https://github.com/husainbc070503/Stack_Overflow_Clone_Frontend",
+    },
+    {
+      id: 3,
       title: "Expense Tracker",
       image: ET,
       description:
@@ -41,7 +61,7 @@ const Projects = () => {
       github: "https://github.com/husainbc070503/Expense_Tracker_Frontend",
     },
     {
-      id: 2,
+      id: 4,
       title: "E-Learning Platform",
       image: ELP,
       description:
@@ -50,7 +70,7 @@ const Projects = () => {
       github: "https://github.com/husainbc070503/E-Learning-Platform_Frontend",
     },
     {
-      id: 3,
+      id: 5,
       title: "Tutor Application",
       image: TutorApp,
       description:
@@ -59,7 +79,7 @@ const Projects = () => {
       github: "https://github.com/husainbc070503/Tutor_App_Frontend",
     },
     {
-      id: 4,
+      id: 6,
       title: "Project Management App",
       image: PMA,
       description:
@@ -69,7 +89,7 @@ const Projects = () => {
         "https://github.com/husainbc070503/Project_Management_App_Frontend",
     },
     {
-      id: 5,
+      id: 7,
       title: "Electro World, E-Commerce App",
       image: ECommerce,
       description:
@@ -78,7 +98,7 @@ const Projects = () => {
       github: "https://github.com/husainbc070503/E-Commerce-App-Frontend",
     },
     {
-      id: 6,
+      id: 8,
       title: "Instagram Clone",
       image: InstaClone,
       description:
@@ -87,7 +107,7 @@ const Projects = () => {
       github: "https://github.com/husainbc070503/MERN_Instagram_Clone",
     },
     {
-      id: 7,
+      id: 9,
       title: "Blog Book",
       image: BlogBook,
       description:
@@ -96,7 +116,7 @@ const Projects = () => {
       github: "https://github.com/husainbc070503/Blog-App-Frontend",
     },
     {
-      id: 8,
+      id: 10,
       title: "Weather Application",
       image: Weather,
       description:
@@ -105,7 +125,7 @@ const Projects = () => {
       github: "https://github.com/husainbc070503/React_Weather_App",
     },
     {
-      id: 9,
+      id: 11,
       title: "Airline Booking Application",
       image: Airline,
       description:
@@ -114,7 +134,7 @@ const Projects = () => {
       github: "https://github.com/husainbc070503/Travel-Booking-App-Backend",
     },
     {
-      id: 10,
+      id: 12,
       title: "To-Do Application",
       image: TODO,
       description:
@@ -123,7 +143,7 @@ const Projects = () => {
       github: "https://github.com/husainbc070503/TODO-APP-USING-REACT",
     },
     {
-      id: 11,
+      id: 13,
       title: "Notes Application",
       image: Notes,
       description:
@@ -132,7 +152,7 @@ const Projects = () => {
       github: "https://github.com/husainbc070503/Notes-App",
     },
     {
-      id: 12,
+      id: 14,
       title: "Go Food - Food Order Application",
       image: Food,
       description:
