@@ -15,6 +15,7 @@ import ET from "../assets/projects/expense_tracker.png";
 import ELP from "../assets/projects/elp.png";
 import SOC from "../assets/projects/SOC.png";
 import TC from "../assets/projects/TC.png";
+import GK from "../assets/projects/GK.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -54,14 +55,14 @@ const Projects = () => {
     {
       id: 3,
       title: "Google Keep Clone",
-      image: SOC,
+      image: GK,
       description:
         "A Google Keep clone allows users to create, archive, delete, and pin notes, providing a versatile and organized platform for managing and storing important information.",
       live: "https://g-keep-react-clone.netlify.app/",
       github: "https://github.com/husainbc070503/Google_Keep_Clone",
     },
     {
-      id: 3,
+      id: 4,
       title: "Expense Tracker",
       image: ET,
       description:
@@ -70,7 +71,7 @@ const Projects = () => {
       github: "https://github.com/husainbc070503/Expense_Tracker_Frontend",
     },
     {
-      id: 4,
+      id: 5,
       title: "E-Learning Platform",
       image: ELP,
       description:
@@ -79,7 +80,7 @@ const Projects = () => {
       github: "https://github.com/husainbc070503/E-Learning-Platform_Frontend",
     },
     {
-      id: 5,
+      id: 6,
       title: "Tutor Application",
       image: TutorApp,
       description:
@@ -88,7 +89,7 @@ const Projects = () => {
       github: "https://github.com/husainbc070503/Tutor_App_Frontend",
     },
     {
-      id: 6,
+      id: 7,
       title: "Project Management App",
       image: PMA,
       description:
@@ -98,7 +99,7 @@ const Projects = () => {
         "https://github.com/husainbc070503/Project_Management_App_Frontend",
     },
     {
-      id: 7,
+      id: 8,
       title: "Electro World, E-Commerce App",
       image: ECommerce,
       description:
@@ -107,7 +108,7 @@ const Projects = () => {
       github: "https://github.com/husainbc070503/E-Commerce-App-Frontend",
     },
     {
-      id: 8,
+      id: 9,
       title: "Instagram Clone",
       image: InstaClone,
       description:
@@ -116,7 +117,7 @@ const Projects = () => {
       github: "https://github.com/husainbc070503/MERN_Instagram_Clone",
     },
     {
-      id: 9,
+      id: 10,
       title: "Blog Book",
       image: BlogBook,
       description:
@@ -125,7 +126,7 @@ const Projects = () => {
       github: "https://github.com/husainbc070503/Blog-App-Frontend",
     },
     {
-      id: 10,
+      id: 11,
       title: "Weather Application",
       image: Weather,
       description:
@@ -134,7 +135,7 @@ const Projects = () => {
       github: "https://github.com/husainbc070503/React_Weather_App",
     },
     {
-      id: 11,
+      id: 12,
       title: "Airline Booking Application",
       image: Airline,
       description:
@@ -143,7 +144,7 @@ const Projects = () => {
       github: "https://github.com/husainbc070503/Travel-Booking-App-Backend",
     },
     {
-      id: 12,
+      id: 13,
       title: "To-Do Application",
       image: TODO,
       description:
@@ -152,7 +153,7 @@ const Projects = () => {
       github: "https://github.com/husainbc070503/TODO-APP-USING-REACT",
     },
     {
-      id: 13,
+      id: 14,
       title: "Notes Application",
       image: Notes,
       description:
@@ -161,7 +162,7 @@ const Projects = () => {
       github: "https://github.com/husainbc070503/Notes-App",
     },
     {
-      id: 14,
+      id: 15,
       title: "Go Food - Food Order Application",
       image: Food,
       description:
