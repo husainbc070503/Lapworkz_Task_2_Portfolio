@@ -53,6 +53,15 @@ const Projects = () => {
     },
     {
       id: 3,
+      title: "Google Keep Clone",
+      image: SOC,
+      description:
+        "A Google Keep clone allows users to create, archive, delete, and pin notes, providing a versatile and organized platform for managing and storing important information.",
+      live: "https://g-keep-react-clone.netlify.app/",
+      github: "https://github.com/husainbc070503/Google_Keep_Clone",
+    },
+    {
+      id: 3,
       title: "Expense Tracker",
       image: ET,
       description:
